@@ -57,7 +57,15 @@
 
 Ход работы:
 
-1)
+1) Установил InstantGamesBridge, универсальный SDK для Яндекс игр и VK Games
+2) Прописал скрипт для инициализации
+
+![image](https://user-images.githubusercontent.com/83212097/194391274-e6dfcebb-b19d-4585-b68b-c20cf101b7e0.png)
+
+3) Проверил что SDK подключен 
+
+![image](https://user-images.githubusercontent.com/83212097/194391691-6f4ab0ec-eb80-4276-9c8c-1725bc2730a7.png)
+
 
 ## Задание 3
 ### 1 Произвести сравнительный анализ игровых сервисов Яндекс Игры и VK Game;
