@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DragonEgg : MonoBehaviour
 {
+
+    public AudioSource audioSource; 
     public float bottomY = -30f;
     void Start()
     {
@@ -18,6 +20,9 @@ public class DragonEgg : MonoBehaviour
         Renderer rend;
         rend = GetComponent<Renderer>();
         rend.enabled = false;
+
+        audioSource = GetComponent<AudioSource>();
+        audioSource.Play();
     }
     void Update()
     {
